@@ -22,22 +22,20 @@ class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', '
 st.markdown(
     """
     <style>
-    /* Body Styling */
+   
     body {
         background-color: #141414; 
         color: #e5e5e5; 
     }
 
-    /* Main Area Styling */
     .main {
         background-color: #141414; /* Match the background */
         color: #e5e5e5;
         padding: 20px;
     }
 
-    /* Title and Text Styling */
     h1 {
-        color: #e5e5e5; /* Light color for title */
+        color: #e5e5e5;
         text-align: center;
         font-family: 'Arial', sans-serif;
         margin-bottom: 20px;
@@ -45,13 +43,12 @@ st.markdown(
     }
 
     h2, h3, h4, h5, h6, p {
-        color: #e5e5e5; /* Light color for text */
+        color: #e5e5e5;
         font-family: 'Arial', sans-serif;
     }
 
-    /* Button Styling */
     .stButton>button {
-        background-color: #e50914; /* Red button to match Netflix theme */
+        background-color: #e50914; 
         color: white;
         border-radius: 5px;
         border: none;
@@ -62,10 +59,9 @@ st.markdown(
         transition: background-color 0.3s ease;
     }
     .stButton>button:hover {
-        background-color: #b81d24; /* Darker red on hover */
+        background-color: #b81d24; 
     }
 
-    /* Image Upload Box */
     .stFileUploader {
         background-color: #333333;
         border-radius: 10px;
@@ -73,13 +69,11 @@ st.markdown(
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
     }
 
-    /* Image Styling */
     .stImage {
         max-width: 100%; /* Full width for images in grid */
         border-radius: 10px;
     }
 
-    /* Footer Styling */
     .footer {
         position: fixed;
         left: 0;
@@ -91,7 +85,6 @@ st.markdown(
         padding: 10px;
     }
 
-    /* Content Grid */
     .content-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
